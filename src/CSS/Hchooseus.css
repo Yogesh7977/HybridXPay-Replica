@@ -1,0 +1,24 @@
+/* src/App.css */
+.animated-girl {
+    width: 100%;
+    border-radius: 10px;
+    opacity: 0; /* Start with hidden image */
+    transform: translateY(20px); /* Move it down */
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out; /* Initial smooth transition */
+  }
+  
+  .animated-girl.visible {
+    animation: girlAnimation 2s forwards; /* Trigger keyframe animation */
+  }
+  
+  @keyframes girlAnimation {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

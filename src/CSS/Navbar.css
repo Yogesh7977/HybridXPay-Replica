@@ -1,0 +1,33 @@
+/* Navbar.css */
+.navbar {
+    background-color: #EDF0F5; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);/* Adjust this color to match your navbar background */
+    z-index: 1000;
+  }
+  
+  .navbar-logo {
+    width: 260px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  .navbar-nav .nav-link {
+    padding: 0 20px; /* Add spacing between navbar items */
+    font-size: 1.2rem; /* Adjust font size as needed */
+    color: #9b9b9b; /* Adjust text color to match the design */
+  }
+  
+  .navbar-nav {
+    color: #8d9ed4;
+    font-weight:500 ;/* Change color on hover if needed */
+  }
+  .nav-link:hover{
+    color: #0077ff;
+    font-weight: 500;
+  }
+  
+  @media (max-width: 992px) {
+    .navbar-nav {
+      text-align: center;
+    }
+  }
+  

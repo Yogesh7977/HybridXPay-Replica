@@ -1,0 +1,53 @@
+.back{
+    background-color: #edf0f5;
+}
+
+.cardText{
+    color: #6a6a6a;
+    font-weight: 400;
+}
+
+.text-center{
+    padding-top: 30px;
+}
+.card{
+    border-color: #dbdbdb;
+    background-color: #EDF0F5;
+    transition: background-color 1s ease, box-shadow 1s ease;
+}
+
+.card:hover{
+    background-color: #fafafb;
+    border: none;
+    box-shadow: 0 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover .circle{
+    background-color: #EDF0F5;
+    transform: rotate(360deg);
+}
+
+.circle{
+    margin-top: 4%;
+    margin-left: 4%;
+    width: 100px;
+    height: 100px;
+    line-height: inherit;
+    background-color: #fff;
+    font-size: 55px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    transition: transform 0.5s ease;
+}
+
+.circle:hover{
+    background-color: #EDF0F5;
+    transform: rotate(360deg);
+}
+
+.fontawesomesvg{
+    width: 50px;
+    height: 50px;
+    fill: #2F67F0;
+}

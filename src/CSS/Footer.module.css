@@ -1,0 +1,19 @@
+.linkw {
+    color: #ced1da;
+    text-decoration: none;
+}
+
+.linkw:hover {
+    color: #0d6efd;
+}
+
+.copyrightArea{
+    border-top: 1px solid #fff;
+    background-color: #111b38;
+}
+
+.TextStyle{
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+}

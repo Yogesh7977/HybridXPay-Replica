@@ -1,0 +1,38 @@
+.btn{
+    background-image:linear-gradient(to right, #2D63E5 , #203674);
+    color: white;
+    height: 6vh;
+    width: 22vh;
+    font-size: 3vh;
+    text-align: center;
+}
+
+.btn:hover{
+    background-image: linear-gradient(to right, #040303 , #464F5F );
+    color: white;
+}
+
+.square{
+    top: 0;
+    width: -webkit-fill-available;
+    height: 700px;
+    z-index: -1;
+    position: absolute;
+    color: #EDF0F5;
+    background-color: #EDF0F5;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 93%, 0% 100%);
+}
+
+.my-5 {
+    margin-top: 11rem !important;
+    margin-bottom: 3rem !important;
+}
+
+.bi-check2{
+    font-size: 18px;
+    color: #2F67F0;
+    padding-right: 10px;
+}
+.bi{
+    font-weight: 900;
+}
